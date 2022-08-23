@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="Icon" href="./assets/images/interrogation.svg">
+    <title>Qual é o número?</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content-container">
+        <div class="top-section">
+          <h1>Qual é o número?</h1>
+        </div>
+        <div class="mid-section">
+          <h3 id="text-reference">indefinido</h3>
+          <div class="value-container">
+            <div class="numbers">
+              <svg width="55" height="100" viewBox="0 0 260 480" id="unity" class="num-0">
+                <use xlink:href="#top" class="segment a" x="30" y="0" />
+                <use xlink:href="#right" class="segment b" x="220" y="30" />
+                <use xlink:href="#right" class="segment c" x="220" y="250" />
+                <use xlink:href="#bottom" class="segment d" x="30" y="440" />
+                <use xlink:href="#left" class="segment e" x="0" y="250" />
+                <use xlink:href="#left" class="segment f" x="0" y="30" />
+                <use xlink:href="#mid" class="segment g" x="30" y="220" />
+              </svg>
+              <svg width="55" height="100" viewBox="0 0 260 480" id="ten" class="num-0">
+                <use xlink:href="#top" class="segment a" x="30" y="0" />
+                <use xlink:href="#right" class="segment b" x="220" y="30" />
+                <use xlink:href="#right" class="segment c" x="220" y="250" />
+                <use xlink:href="#bottom" class="segment d" x="30" y="440" />
+                <use xlink:href="#left" class="segment e" x="0" y="250" />
+                <use xlink:href="#left" class="segment f" x="0" y="30" />
+                <use xlink:href="#mid" class="segment g" x="30" y="220" />
+              </svg>
+              <svg width="55" height="100" viewBox="0 0 260 480" id="hundred" class="num-0">
+                <use xlink:href="#top" class="segment a" x="30" y="0" />
+                <use xlink:href="#right" class="segment b" x="220" y="30" />
+                <use xlink:href="#right" class="segment c" x="220" y="250" />
+                <use xlink:href="#bottom" class="segment d" x="30" y="440" />
+                <use xlink:href="#left" class="segment e" x="0" y="250" />
+                <use xlink:href="#left" class="segment f" x="0" y="30" />
+                <use xlink:href="#mid" class="segment g" x="30" y="220" />
+              </svg>
+            </div>
+          </div>
+          <button class="btn-new-game" id="btn-new-game">
+            <img src="./assets/images/refresh.svg" alt="Refresh Icon" />
+            Nova Partida
+          </button>
+        </div>
+        <div class="bottom-section">
+          <input
+            placeholder="Digite o palpite"
+            type="number"
+            id="input-number"
+            oninput="maxLengthInputCheck(this)"
+            inputmode="numeric"
+          />
+          <button class="btn-send" id="btn-send-guess">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+    <svg width="0" height="0" viewBox="0 0 0 0">
+      <defs>
+        <g id="top">
+          <path d="M0 20 L20 40 L180 40 L200 20 L180 0 L20 0 Z" />
+        </g>
+        <g id="right">
+          <path d="M20 0 L0 20 L0 180 L20 200 L40 180 L40 20 Z" />
+        </g>
+        <g id="left">
+          <path d="M20 0 L0 20 L0 180 L20 200 L40 180 L40 20 Z" />
+        </g>
+        <g id="bottom">
+          <path d="M0 20 L20 40 L180 40 L200 20 L180 0 L20 0 Z" />
+        </g>
+        <g id="mid">
+          <path d="M0 20 L20 40 L180 40 L200 20 L180 0 L20 0 Z" />
+        </g>
+      </defs>
+    </svg>
+    <script src="index.js"></script>
+  </body>
+</html>
