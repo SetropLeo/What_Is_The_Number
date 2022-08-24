@@ -7,27 +7,27 @@
 <table>
 <tr>
 <th>Initial Screen</th>
-<td><img src="./imgs/initial.jpg"/></td>
+<td><img src="./base/initial.jpg"/></td>
 </tr>
 <tr>
 <th>Setting Value</th>
-<td><img src="./imgs/setting-value.jpg"/></td>
+<td><img src="./base/setting-value.jpg"/></td>
 </tr>
 <tr>
 <th>Attempt - Highest Value</th>
-<td><img src="./imgs/attempt1.jpg"/></td>
+<td><img src="./base/attempt1.jpg"/></td>
 </tr>
 <tr>
 <th>Attempt - Lowest Value</th>
-<td><img src="./imgs/attempt2.jpg"/></td>
+<td><img src="./base/attempt2.jpg"/></td>
 </tr>
 <tr>
 <th>Victory Screen</th>
-<td><img src="./imgs/won.jpg"/></td>
+<td><img src="./base/won.jpg"/></td>
 </tr>
 <tr>
 <th>Error Screen</th>
-<td><img src="./imgs/error.jpg"/></td>
+<td><img src="./base/error.jpg"/></td>
 </tr>
 </table>
 
